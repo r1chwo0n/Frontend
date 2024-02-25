@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("font/Shrikhand.ttf");
+}
+
+.home {
+  position: absolute;
+  background-color: #fff3ca;
+  height: 1024px;
+  width: 1440px;
+  padding: 0px;
+}
+.upbeat {
+  color: #9b5de5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 150px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 100px;
+  position: absolute;
+  width: 956px;
+}
+.group1 {
+  width: 345px;
+  height: 149px;
+  top: 655px;
+  left: 548px;
+  position: absolute;
+}
+.playbutt {
+  height: 149px;
+  width: 345px;
+  padding: 0px;
+  border-style: hidden;
+  outline: none;
+  top: 655px;
+  left: 548px;
+  position: absolute;
+}
+.rectangle3 {
+  background-color: #ffffff;
+  height: 86px;
+  width: 345px;
+  left: 305px;
+  border-radius: 18px;
+  position: absolute;
+}
+.play2 {
+  color: #f15bb5;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 46px;
+  font-family: Shrikhand;
+  left: 46px;
+  width: 254px;
+  height: 149px;
+  position: absolute;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+.group2 {
+  width: 1842px;
+  height: 466px;
+  position: absolute;
+  top: -300px;
+  left: -174px;
+}
+.ellipse1 {
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+  height: 466px;
+  width: 448px;
+}
+
+.ellipse7 {
+  background-color: #ffc37d;
+  height: 466px;
+  width: 448px;
+  top: -233px;
+  left: 1499px;
+  position: absolute;
+}
+.group27 {
+  width: 1176px;
+  height: 56px;
+  left: 168px;
+  top: 89px;
+  position: absolute;
+}
+.ellipse8 {
+  background-color: #fc7dff;
+  height: 56px;
+  width: 56px;
+  top: 89px;
+  left: 168px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse9 {
+  background-color: #fc7dff;
+  height: 56px;
+  width: 56px;
+  top: 89px;
+  left: 456px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse10 {
+  background-color: #fc7dff;
+  height: 56px;
+  width: 56px;
+  top: 89px;
+  left: 734px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse11 {
+  background-color: #fc7dff;
+  height: 56px;
+  width: 56px;
+  top: 89px;
+  left: 1012px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipse12 {
+  background-color: #fc7dff;
+  height: 56px;
+  width: 56px;
+  top: 89px;
+  left: 1288px;
+  position: absolute;
+  border-radius: 50%;
+}
