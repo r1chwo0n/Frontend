@@ -18,17 +18,24 @@ export default function EnterUsername() {
           }}
         >
           <div className="flex items-center justify-center">
-            <button
-              className="bg-pink-500 hover:bg-purple-700 text-white font-Shrikhand py-4 px-10 rounded focus:outline-none focus:shadow-outline"
-              type="submit"
-            >
-              Play
-            </button>
+            <div className="ellipse1"></div>
+            <div className="ellipse2"></div>
+            <div className="ellipse3"></div>
+            <div className="ellipse4"></div>
+            <div className="ellipse8"></div>
+            <div className="ellipse9"></div>
+            <div className="ellipse10"></div>
+            <div className="upbeat items-center">UPBEAT</div>
+            <div className="group1">
+              <button
+                className="bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playbutt py-4 px-20 focus:outline-none focus:shadow-outline"
+                type="submit"
+              >
+                Play
+              </button>
+            </div>
           </div>
         </form>
-        {/* <p className="text-center text-gray-500 text-xs">
-          &copy;2020 Acme Corp. All rights reserved.
-        </p> */}
       </div>
     </>
   );

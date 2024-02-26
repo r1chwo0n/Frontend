@@ -19,26 +19,20 @@
   font-family: Shrikhand;
   line-height: auto;
   border: 1px solid rgba(233, 36, 214, 0);
-  top: 100px;
+  top: 220px;
   position: absolute;
   width: 956px;
 }
+
 .group1 {
-  width: 345px;
-  height: 149px;
-  top: 655px;
-  left: 548px;
+  top: 450px;
   position: absolute;
 }
 .playbutt {
-  height: 149px;
-  width: 345px;
-  padding: 0px;
-  border-style: hidden;
-  outline: none;
-  top: 655px;
-  left: 548px;
-  position: absolute;
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
 }
 .rectangle3 {
   background-color: #ffffff;
@@ -48,6 +42,7 @@
   border-radius: 18px;
   position: absolute;
 }
+
 .play2 {
   color: #f15bb5;
   text-align: center;
@@ -70,12 +65,41 @@
   left: -174px;
 }
 .ellipse1 {
-  background-color: #aceeee;
-  border-radius: 0 0 150px 150px;
-  height: 466px;
+  position: absolute;
   width: 448px;
+  height: 466px;
+  left: 1100px;
+  top: -275px;
+  background-color: #aceeee;
+  border-radius: 0 0 250px 250px;
 }
-
+.ellipse2 {
+  position: absolute;
+  width: 448px;
+  height: 466px;
+  left: 700px;
+  top: -275px;
+  background-color: #aceeee;
+  border-radius: 0 0 250px 250px;
+}
+.ellipse3 {
+  position: absolute;
+  width: 448px;
+  height: 466px;
+  left: 300px;
+  top: -275px;
+  background-color: #aceeee;
+  border-radius: 0 0 250px 250px;
+}
+.ellipse4 {
+  position: absolute;
+  width: 448px;
+  height: 466px;
+  left: -100px;
+  top: -275px;
+  background-color: #aceeee;
+  border-radius: 0 0 250px 250px;
+}
 .ellipse7 {
   background-color: #ffc37d;
   height: 466px;
@@ -95,8 +119,8 @@
   background-color: #fc7dff;
   height: 56px;
   width: 56px;
-  top: 89px;
-  left: 168px;
+  top: 50px;
+  left: 295px;
   position: absolute;
   border-radius: 50%;
 }
@@ -104,8 +128,8 @@
   background-color: #fc7dff;
   height: 56px;
   width: 56px;
-  top: 89px;
-  left: 456px;
+  top: 50px;
+  left: 700px;
   position: absolute;
   border-radius: 50%;
 }
@@ -113,8 +137,8 @@
   background-color: #fc7dff;
   height: 56px;
   width: 56px;
-  top: 89px;
-  left: 734px;
+  top: 50px;
+  left: 1100px;
   position: absolute;
   border-radius: 50%;
 }

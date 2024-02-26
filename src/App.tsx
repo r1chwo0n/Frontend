@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <div className="flex items-center justify-center h-screen">
-        <div className="upbeat items-center">UPBEAT</div>
         <div className="max-w-full max-h-full">
           {webSocketState.isConnected ? <ChatBox /> : <EnterUsername />}
         </div>

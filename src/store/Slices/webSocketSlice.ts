@@ -15,6 +15,7 @@ interface webSocketMessage {
 }
 interface webSocketState {
   userCount: number;
+  isPressed: boolean;
   isConnected: boolean;
   stompClient: Stomp.Client | undefined;
   messages: webSocketMessage[] | undefined;
@@ -22,6 +23,7 @@ interface webSocketState {
 
 const initialState: webSocketState = {
   userCount: 0,
+  isPressed: false,
   isConnected: false,
   stompClient: undefined,
   messages: [],
