@@ -4,6 +4,7 @@ import Stomp from "stompjs";
 import SockJS from "sockjs-client/dist/sockjs";
 import { useAppDispatch, useAppSelector } from "../store/hooks.ts";
 import {
+  setIsPlayPressed,
   setIsConnected,
   appendMessage,
   setStompClient,
@@ -15,17 +16,17 @@ function useWebSocket() {
   const dispatch = useAppDispatch();
   const webSocket = useAppSelector(selectWebSocket);
 
-  function connect(username: string) {
+  // function press(){
+
+  // }
+
+  function connect() {
     try {
       const socket: WebSocket = new SockJS(`http://localhost:8080/ws`);
       const stompClient: Stomp.Client = Stomp.over(socket);
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
-      stompClient.connect(
-        {},
-        () => onConnected(stompClient, username),
-        onError
-      );
+      stompClient.connect({}, () => onConnected(stompClient), onError);
     } catch (e) {
       console.log(e);
     }
@@ -47,19 +48,11 @@ function useWebSocket() {
     }
   }
 
-  const onConnected = (stompClient: Stomp.Client, username: string) => {
+  const onConnected = (stompClient: Stomp.Client) => {
     stompClient.subscribe("/topic/public", onMessageReceived);
     stompClient.subscribe("/topic/userOnline", onCountRecieved);
-    stompClient.send(
-      "/app/chat.addUser",
-      {},
-      JSON.stringify({
-        sender: username,
-        type: "JOIN",
-        timestamp: new Date().toLocaleTimeString(),
-      })
-    );
     dispatch(setIsConnected(true));
+    dispatch(setIsPlayPressed(true));
     dispatch(setStompClient(stompClient));
   };
   const onMessageReceived = (payload: Stomp.Message) => {

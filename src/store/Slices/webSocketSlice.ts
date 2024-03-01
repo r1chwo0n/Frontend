@@ -7,6 +7,13 @@ export enum messageType {
   JOIN = "JOIN",
   LEAVE = "LEAVE",
 }
+
+export enum gameStateType {
+  HOME = "HOME",
+  USERNAME = "USERNAME",
+  PLAY = "PLAY",
+}
+
 interface webSocketMessage {
   sender: string;
   content: string;
@@ -15,24 +22,29 @@ interface webSocketMessage {
 }
 interface webSocketState {
   userCount: number;
-  isPressed: boolean;
+  isPlayPressed: boolean;
   isConnected: boolean;
   stompClient: Stomp.Client | undefined;
   messages: webSocketMessage[] | undefined;
+  gameState: gameStateType;
 }
 
 const initialState: webSocketState = {
   userCount: 0,
-  isPressed: false,
+  isPlayPressed: false,
   isConnected: false,
   stompClient: undefined,
   messages: [],
+  gameState: gameStateType.HOME,
 };
 
 export const webSocketSlice = createSlice({
   name: "webSocket",
   initialState,
   reducers: {
+    setIsPlayPressed: (state, action: PayloadAction<boolean>) => {
+      state.isPlayPressed = action.payload;
+    },
     setIsConnected: (state, action: PayloadAction<boolean>) => {
       state.isConnected = action.payload;
     },
@@ -45,10 +57,19 @@ export const webSocketSlice = createSlice({
     appendCount: (state, action: PayloadAction<number>) => {
       state.userCount = action.payload;
     },
+    setGameState: (state, action: PayloadAction<gameStateType>) => {
+      state.gameState = action.payload;
+    },
   },
 });
 
-export const { setIsConnected, appendMessage, setStompClient, appendCount } =
-  webSocketSlice.actions;
+export const {
+  setIsPlayPressed,
+  setIsConnected,
+  appendMessage,
+  setStompClient,
+  appendCount,
+  setGameState,
+} = webSocketSlice.actions;
 export default webSocketSlice.reducer;
 export const selectWebSocket = (state: RootState) => state.webSocket;
