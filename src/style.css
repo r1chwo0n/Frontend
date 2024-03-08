@@ -275,3 +275,18 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
+
+.Nerd:hover img {
+  content: url("src/image char/Picture5.png");
+  opacity: 1;
+}
+
+.Superstar:hover img{
+  content: url("src/image char/Picture6.png");
+  opacity: 1;
+}
+
+.Oppa:hover img{
+  content: url("src/image char/Picture7.png");
+  opacity: 1;
+}
