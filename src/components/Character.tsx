@@ -89,6 +89,7 @@ export default function Character() {
             </form>
 
             <div className="upbeatChar">UPBEAT</div>
+            //
           </div>
         </div>
       </div>
