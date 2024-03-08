@@ -8,7 +8,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   text-align: center;
   vertical-align: text-middle;
-  font-size: 150px;
+  font-size: 50px;
   font-family: Shrikhand;
   line-height: auto;
   border: 1px solid rgba(233, 36, 214, 0);
@@ -17,8 +17,28 @@
   /* width: 956px; */
 }
 
+.upbeatChar {
+  color: #9b5de5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 50px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 904px;
+  left: 1161px;
+  position: absolute;
+  /* width: 956px; */
+}
+
 .group1 {
   top: 450px;
+  position: absolute;
+}
+.group2 {
+  left: 6.14px;
+  top: 8.64px;
   position: absolute;
 }
 .playbutt {
@@ -26,6 +46,18 @@
   font-size: 30px;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
+}
+.enterbutt {
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+.namebox {
+  background-color: #9747ff;
+  height: 96px;
+  width: 465px;
+  border-radius: 10px;
 }
 
 .headBox {

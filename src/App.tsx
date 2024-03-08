@@ -7,6 +7,7 @@ import {
 } from "./store/Slices/webSocketSlice.ts";
 import Play from "./components/Play.tsx";
 import PlayPage from "./components/PlayPage.tsx";
+import Character from "./components/Character.tsx";
 
 function App() {
   const webSocketState = useAppSelector(selectWebSocket);
@@ -16,8 +17,11 @@ function App() {
         <div className="max-w-full max-h-full">
           {/* <Play /> */}
           {/* <PlayPage /> */}
-          {webSocketState.gameState == gameStateType.HOME && <PlayPage />}
-          {webSocketState.gameState == gameStateType.PLAY && <Play />}
+          <Character />
+          {/* {webSocketState.gameState == gameStateType.HOME && <PlayPage />} */}
+          {/* {webSocketState.gameState == gameStateType.HOME && <Character />} */}
+
+          {/* {webSocketState.gameState == gameStateType.PLAY && <Play />} */}
         </div>
       </div>
     </>
