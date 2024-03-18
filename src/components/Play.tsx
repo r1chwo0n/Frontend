@@ -1,9 +1,5 @@
 import { useState } from "react";
-import useWebSocket from "../customHook/useWebSocket.ts";
-import { useDispatch } from "react-redux";
-import { useAppSelector } from "../store/hooks.ts";
-import { selectWebSocket } from "../store/Slices/webSocketSlice.ts";
-
+import HexagonGrid from "./HexagonGrid.tsx";
 export default function Play() {
   const [plan, setConstructionPlan] = useState<string>("");
 
@@ -21,6 +17,11 @@ export default function Play() {
         <div className="boxBudget"></div>
         <div className="budgetFront">BUDGET</div>
         <div className="budget"></div>
+      </div>
+      <div className="hexagon">
+        {/* <Hexagon size={50} row={0} col={0} strokeWidth={2} /> */}
+        <HexagonGrid width={700} height={520} size={45} />
+        {/* <HexagonGrid width={400} height={300} radius={20} fill="lightblue" /> */}
       </div>
       <div className="recConstruct">
         <textarea
