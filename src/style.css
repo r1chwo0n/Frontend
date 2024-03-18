@@ -275,6 +275,11 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
+.hexagon {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
 
 .Nerd:hover img {
   content: url("src/image char/Picture5.png");
