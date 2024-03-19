@@ -16,18 +16,18 @@ export default function Character() {
     <>
       <div className="w-full max-w-xs">
         <div className="flex items-cen b0-ter justify-center">
-          <div className="ellipse1 " />
-          <div className="ellipse2"></div>
-          <div className="ellipse3"></div>
-          <div className="ellipse4"></div>
-          <div className="ellipse5"></div>
-          <div className="ellipse6"></div>
+          <div className="ellipsechar1 " />
+          <div className="ellipsechar2"></div>
+          <div className="ellipsechar3"></div>
+          <div className="ellipsechar4"></div>
+          <div className="ellipsechar5"></div>
+          <div className="ellipsechar6"></div>
           <div className="groupPinkCircle">
-            <div className="ellipse7" />
-            <div className="ellipse8" />
-            <div className="ellipse9" />
-            <div className="ellipse10" />
-            <div className="ellipse11" />
+            <div className="ellipsechar7" />
+            <div className="ellipsechar8" />
+            <div className="ellipsechar9" />
+            <div className="ellipsechar10" />
+            <div className="ellipsechar11" />
           </div>
 
           <div className="w-full max-w-xs">
@@ -39,7 +39,7 @@ export default function Character() {
                 connect();
               }}
             >
-              <div className="group1">
+              <div className="group3">
                 <div className="mb-4">
                   {/* <div className="namebox"> */}
                   <input
@@ -61,8 +61,9 @@ export default function Character() {
                 >
                   Enter
                 </button>
-
-                <button className="Nerd w-72 h-72 left-[-450px] top-[-200px] absolute">
+              </div>
+              <div className="group1">
+                <button className="Nerdchar w-72 h-72 left-[-450px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full " />
                   <img
                     className="w-52 h-60 left-[40px] top-[25px] absolute transition-opacity duration-500"
@@ -70,7 +71,7 @@ export default function Character() {
                   />
                 </button>
 
-                <button className="Superstar w-72 h-72 left-[0px] top-[-200px] absolute">
+                <button className="Superstarchar w-72 h-72 left-[0px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full" />
                   <img
                     className=" w-60 h-60 left-[21px] top-[21px] absolute"
@@ -78,7 +79,7 @@ export default function Character() {
                   />
                 </button>
 
-                <button className="Oppa w-72 h-72 left-[450px] top-[-200px] absolute">
+                <button className="Oppachar w-72 h-72 left-[450px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full" />
                   <img
                     className=" w-48 h-60 left-[47px] top-[21px] absolute"
@@ -87,9 +88,8 @@ export default function Character() {
                 </button>
               </div>
             </form>
-
             <div className="upbeatChar">UPBEAT</div>
-            //
+            <div className="Character">Character</div>
           </div>
         </div>
       </div>
