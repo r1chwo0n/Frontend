@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("font/Shrikhand.ttf");
+}
+
+.upbeat {
+  color: #9b5de5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 50px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 220px;
+  position: absolute;
+  /* width: 956px; */
+}
+
+.Character {
+  color: #00bbf9;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 100px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 30px;
+  left: 520px;
+  position: absolute;
+  /* width: 956px; */
+}
+
+.upbeatChar {
+  color: #9b5de5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 50px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 904px;
+  left: 1161px;
+  position: absolute;
+  /* width: 956px; */
+}
+
+.group1 {
+  top: 560px;
+  position: absolute;
+  left: 600px;
+}
+.group2 {
+  left: 6.14px;
+  top: 8.64px;
+  position: absolute;
+}
+.group3 {
+  top: 750px;
+  left: 630px;
+  position: absolute;
+}
+.playbutt {
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+.enterbutt {
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+.namebox {
+  background-color: #9747ff;
+  height: 96px;
+  width: 465px;
+  border-radius: 10px;
+}
+
+.headBox {
+  top: -160;
+  width: 980px;
+  height: 375px;
+}
+.ellipsechar1 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 0px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+
+.ellipsechar2 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 250px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar3 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 500px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar4 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 750px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar5 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 1000px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar6 {
+  position: absolute;
+  width: 285px;
+  height: 375px;
+  left: 1250px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.groupBudget {
+  position: absolute;
+  height: 92px;
+  left: 1050px;
+  top: 600px;
+}
+
+.boxBudget {
+  position: absolute;
+  width: 425px;
+  height: 60px;
+  background: #9b5de5;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.budget {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  left: 130px;
+  top: 5px;
+  background: rgba(0, 0, 0, 0.11);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.budgetFront {
+  top: 10px;
+  left: 20px;
+  position: absolute;
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fee440;
+}
+.groupPinkCircle {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  height: 50px;
+  width: 300px;
+}
+
+.ellipsechar7 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 243px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar8 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 495px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar9 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 745px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar10 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 995px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar11 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  left: 1245px;
+  top: 70px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.pinkRectangle {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: -110px;
+  top: 50px;
+  background: #ff699f;
+  border-radius: 20px;
+}
+
+.Nerdchar:hover img {
+  content: url("src/image char/Picture5.png");
+  opacity: 1;
+}
+
+.Superstarchar:hover img {
+  content: url("src/image char/Picture6.png");
+  opacity: 1;
+}
+
+.Oppachar:hover img {
+  content: url("src/image char/Picture7.png");
+  opacity: 1;
+}
