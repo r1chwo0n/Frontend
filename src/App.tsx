@@ -1,5 +1,6 @@
 import "./App.css";
 import "./style.css";
+import"./characterstyle.css";
 import { useAppSelector } from "./store/hooks.ts";
 import {
   gameStateType,
