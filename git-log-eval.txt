@@ -1,0 +1,95 @@
+* commit 5e0366fef3b6af18d3feaafd1a74e6a0a68d2542
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Tue Mar 19 22:16:52 2024 +0700
+| 
+|     update
+| 
+* commit 7ae0063b7f26670ebbaeb4321781d4afc5a26989
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Tue Mar 19 22:15:07 2024 +0700
+| 
+|     Not finish yet
+| 
+* commit 03879a92cb9a43cc13f242edae6bb8703bd58a1e
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Tue Mar 19 22:14:38 2024 +0700
+| 
+|     import character style
+| 
+* commit 3aba809b88cfc4310f2d5fed561418fc422dd95b
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Tue Mar 19 22:12:45 2024 +0700
+| 
+|     Build new css
+| 
+* commit 774b416cc0ce9ac177c122ec0a40d739c03f2218
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Tue Mar 19 22:12:26 2024 +0700
+| 
+|     Almost complete
+| 
+* commit 4cb9b2c39dafdc364a16508dee5712d70174a6e8
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Tue Mar 19 20:56:10 2024 +0700
+| 
+|     Update HexagonGrid.tsx
+| 
+* commit e475419b1dd2f2e07632ff1d4da3ba35c504f9f2
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Mon Mar 18 22:30:42 2024 +0700
+| 
+|     Update style.css
+| 
+* commit 3b40ed4427ea3e4f8005f61bd30a5e0747850cff
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Mon Mar 18 22:29:55 2024 +0700
+| 
+|     Update Play.tsx
+| 
+* commit 221a3fe3986d53e99ac00c77ef07a4260ee97002
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Mon Mar 18 22:29:10 2024 +0700
+| 
+|     Create HexagonGrid.tsx
+| 
+* commit 4f60a5519e520ceac883b8f9048e4177f6b0cc28
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Fri Mar 8 22:21:08 2024 +0700
+| 
+|     update
+| 
+* commit 0ef6a69237967063edc24bd5b60adbc4be9e4d0f
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Fri Mar 8 22:19:22 2024 +0700
+| 
+|     commit
+| 
+* commit 6a7f6d0496a0b4f905c7c50b74ff230295af59b4
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Fri Mar 8 22:10:23 2024 +0700
+| 
+|     import img from figma make it can hovering
+| 
+* commit e9e593199b0d553f243d586e7e474f63f04b7c2b
+| Author: r1chwo0n <woonzy09@gmail.com>
+| Date:   Fri Mar 8 20:27:22 2024 +0700
+| 
+|     update
+| 
+* commit b45f57961ee3b9168d102ca4db657aded8237772
+| Author: r1chwo0n <woonzy09@gmail.com>
+| Date:   Fri Mar 1 12:34:00 2024 +0700
+| 
+|     update
+| 
+* commit f8b5c63567a7b4724e9104f41959476fdf3046b9
+| Author: r1chwo0n <woonzy09@gmail.com>
+| Date:   Mon Feb 26 22:40:20 2024 +0700
+| 
+|     create first page
+| 
+* commit 74c1b1e0fe91923ccdc0a1cec933c5a606cf34ed
+  Author: r1chwo0n <woonzy09@gmail.com>
+  Date:   Sun Feb 25 22:19:14 2024 +0700
+  
+      first commit
