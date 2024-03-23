@@ -1,0 +1,17 @@
+.Ellipse3 {
+  position: absolute;
+  border-radius: 50%;
+  align-items: center;
+}
+.Victory_Lose {
+  width: 956px;
+  height: 451px;
+  left: 0;
+  top: 600px;
+
+  position: absolute;
+  text-align: center;
+  color: #f15bb5;
+  font-size: 150px;
+  font-family: Shrikhand;
+}

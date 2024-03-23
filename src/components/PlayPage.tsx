@@ -27,7 +27,7 @@ export default function PlayPage() {
             <div className="ellipse11" />
           </div>
 
-          <div className="upbeat items-center font-size: 150px">UPBEAT</div>
+          <div className="upbeatStart items-center ">UPBEAT</div>
           <div className="group1">
             <button
               className="bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playbutt py-4 px-20 focus:outline-none focus:shadow-outline"
