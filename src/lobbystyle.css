@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("font/Shrikhand.ttf");
+}
+.Lobby {
+  color: #00bbf9;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 100px;
+  font-family: Shrikhand;
+  line-height: auto;
+  border: 1px solid rgba(233, 36, 214, 0);
+  top: 30px;
+  position: absolute;
+}
+.Rectangle1 {
+  position: absolute;
+  width: 390px;
+  height: 350px;
+  left: 200px;
+  top: 400px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: absolute;
+}
+.Rectangle2 {
+  width: 390px;
+  height: 83px;
+  left: 200px;
+  top: 290px;
+
+  background: #9b5de5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: absolute;
+}
+.Rectangle3 {
+  width: 200px;
+  height: 83px;
+  left: 150px;
+  top: 100px;
+
+  background: #00bbf9;
+  position: absolute;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Rectangle3:active {
+    background: #F15BB5;
+}
+
+.Players {
+  position: absolute;
+  width: 464px;
+  height: 50px;
+  left: 300px;
+  top: 307px;
+
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Username {
+  position: absolute;
+  width: 407px;
+  height: 213px;
+  left: 230px;
+  top: 400px;
+
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.Ready {
+  font-family: "Shrikhand";
+  font-size: 48px;
+  color: #000000;
+}
+
+.Substract {
+  position: absolute;
+}
