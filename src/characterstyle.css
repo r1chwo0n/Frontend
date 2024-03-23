@@ -258,3 +258,18 @@
   content: url("src/image char/Picture7.png");
   opacity: 1;
 }
+
+.Nerdchar:click img {
+  content: url("src/image char/Picture5.png");
+  opacity: 1;
+}
+
+.Superstarchar:click img {
+  content: url("src/image char/Picture6.png");
+  opacity: 1;
+}
+
+.Oppachar:click img {
+  content: url("src/image char/Picture7.png");
+  opacity: 1;
+}

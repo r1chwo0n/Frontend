@@ -11,15 +11,15 @@ export default function Character() {
   const [username, setUsername] = useState<string>("");
   const { connect } = useWebSocket();
 
-//   const toggleReadyState = () => {
-//     if (gameState === gameStateType.PLAY) {
-//       // If currently in PLAY state, set to NOT_READY
-//       dispatch(setGameState(gameStateType.NOT_READY));
-//     } else {
-//       // If currently in NOT_READY state, set to PLAY
-//       dispatch(setGameState(gameStateType.PLAY));
-//     }
-//   };
+  //   const toggleReadyState = () => {
+  //     if (gameState === gameStateType.PLAY) {
+  //       // If currently in PLAY state, set to NOT_READY
+  //       dispatch(setGameState(gameStateType.NOT_READY));
+  //     } else {
+  //       // If currently in NOT_READY state, set to PLAY
+  //       dispatch(setGameState(gameStateType.PLAY));
+  //     }
+  //   };
 
   return (
     <>
@@ -55,14 +55,8 @@ export default function Character() {
         </div>
 
         <button className="absolute">
-          <div
-            className={`Rectangle3 ${
-              gameState === gameStateType.PLAY ? "active" : ""
-            }`}
-          >
-            <div className="Ready">
-              {gameState === gameStateType.PLAY ? "Not Ready" : "Ready"}
-            </div>
+          <div className={"Rectangle3"}>
+            <div className="Ready"></div>
           </div>
         </button>
 

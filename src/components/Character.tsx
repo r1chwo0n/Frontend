@@ -41,7 +41,7 @@ export default function Character() {
             >
               <div className="group3">
                 <div className="mb-4">
-                  {/* <div className="namebox"> */}
+                  
                   <input
                     className="shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="Username"
@@ -51,7 +51,7 @@ export default function Character() {
                     onChange={(e) => setUsername(e.target.value)}
                     required
                   />
-                  {/* </div> */}
+                  
                 </div>
 
                 <button
@@ -61,31 +61,33 @@ export default function Character() {
                 >
                   Enter
                 </button>
+
+                
               </div>
               <div className="group1">
-                <button className="Nerdchar w-72 h-72 left-[-450px] top-[-200px] absolute">
+                <div className="Nerdchar w-72 h-72 left-[-450px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full " />
                   <img
                     className="w-52 h-60 left-[40px] top-[25px] absolute transition-opacity duration-500"
                     src="src\image char\Picture1.png"
                   />
-                </button>
+                </div>
 
-                <button className="Superstarchar w-72 h-72 left-[0px] top-[-200px] absolute">
+                <div className="Superstarchar w-72 h-72 left-[0px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full" />
                   <img
                     className=" w-60 h-60 left-[21px] top-[21px] absolute"
                     src="src\image char\Picture2.png"
                   />
-                </button>
+                </div>
 
-                <button className="Oppachar w-72 h-72 left-[450px] top-[-200px] absolute">
+                <div className="Oppachar w-72 h-72 left-[450px] top-[-200px] absolute">
                   <div className="Ellipse3 w-72 h-72 left-0 top-0 absolute bg-zinc-300 bg-opacity-50 rounded-full" />
                   <img
                     className=" w-48 h-60 left-[47px] top-[21px] absolute"
                     src="src\image char\Picture3.png"
                   />
-                </button>
+                </div>
               </div>
             </form>
             <div className="upbeatChar">UPBEAT</div>
