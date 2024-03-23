@@ -4,14 +4,27 @@
   align-items: center;
 }
 .Victory_Lose {
-  width: 956px;
-  height: 451px;
-  left: 0;
-  top: 600px;
+  left: 200px;
+  top: 550px;
 
   position: absolute;
   text-align: center;
   color: #f15bb5;
-  font-size: 150px;
+  font-size: 100px;
   font-family: Shrikhand;
 }
+.Exit:hover img {
+  content: url("src/image component/Exist_hover.png");
+  opacity: 1;
+  size-adjust: 50px;
+}
+.Exit:click img {
+    content: url("src/image component/Exist_hover.png");
+    opacity: 1;
+    size-adjust: 50px;
+  }
+  .Sound:click img {
+      content: url("src/image component/Soundoff.png");
+      opacity: 1;
+      size-adjust: 50px;
+  }
