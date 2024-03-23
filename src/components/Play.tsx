@@ -3,6 +3,11 @@ import HexagonGrid from "./HexagonGrid.tsx";
 export default function Play() {
   const [plan, setConstructionPlan] = useState<string>("");
 
+  const handleSendPlan = () => {
+    // Implement your logic to send the construction plan here
+    console.log("Sending construction plan:", plan);
+  };
+
   return (
     <>
       <div className="upleft">
@@ -19,13 +24,18 @@ export default function Play() {
         <div className="budget"></div>
       </div>
       <div className="hexagon">
-        {/* <Hexagon size={50} row={0} col={0} strokeWidth={2} /> */}
         <HexagonGrid width={700} height={520} size={45} />
-        {/* <HexagonGrid width={400} height={300} radius={20} fill="lightblue" /> */}
       </div>
       <div className="recConstruct">
+        <button
+          className="sendButt bg-blue-500 text-white hover:text-yellow-200 hover:bg-purple-500 py-2 px-10 focus:outline-none focus:shadow-outline"
+          type="submit"
+          onClick={handleSendPlan}
+        >
+          Send
+        </button>
         <textarea
-          className="rounded-lg resize-none writeConstruct"
+          className="rounded-xl resize-none writeConstruct"
           id="Constructor Plan"
           placeholder=" Construction Plan"
           value={plan}
