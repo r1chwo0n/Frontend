@@ -1,0 +1,815 @@
+/* bitcoin-icons:verify-filled */
+.bitcoin-icons {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+/* Config */
+.Config {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #fff4cb;
+}
+
+/* init_plan_sec : */
+.init_plan_sec {
+  position: absolute;
+  width: 264px;
+  height: 71px;
+  left: 711px;
+  top: 386px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* max_dep : */
+.max_dep {
+  position: absolute;
+  width: 195px;
+  height: 71px;
+  left: 765px;
+  top: 761px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* init_center_dep : */
+.init_center_dep {
+  position: absolute;
+  width: 264px;
+  height: 71px;
+  left: 699px;
+  top: 508px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* plan_rev_sec : */
+.plan_rev_sec {
+  position: absolute;
+  width: 264px;
+  height: 71px;
+  left: 707px;
+  top: 641px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* n : */
+.n {
+  position: absolute;
+  width: 195px;
+  height: 71px;
+  left: 829px;
+  top: 264px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Group 33 */
+.Group33 {
+  position: absolute;
+  width: 989px;
+  height: 689px;
+  left: 148px;
+  top: 262px;
+}
+
+/* Rectangle 424 */
+.Rectangle424 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 443px;
+  top: 262px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 426 */
+.Rectangle426 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 443px;
+  top: 393px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 427 */
+.Rectangle427 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 975px;
+  top: 393px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 428 */
+.Rectangle428 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 443px;
+  top: 514px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 429 */
+.Rectangle429 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 975px;
+  top: 508px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 430 */
+.Rectangle430 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 443px;
+  top: 648px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 431 */
+.Rectangle431 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 975px;
+  top: 637px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 432 */
+.Rectangle432 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 975px;
+  top: 766px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 433 */
+.Rectangle433 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 729px;
+  top: 879px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 425 */
+.Rectangle425 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 975px;
+  top: 263px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* m : */
+.m {
+  position: absolute;
+  width: 195px;
+  height: 71px;
+  left: 281px;
+  top: 263px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* init_plan_min : */
+.init_plan_min {
+  position: absolute;
+  width: 295px;
+  height: 71px;
+  left: 148px;
+  top: 393px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* init_budget: */
+.init_budget {
+  position: absolute;
+  width: 267px;
+  height: 71px;
+  left: 182px;
+  top: 515px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 439 */
+.Rectangle439 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 449px;
+  top: 523px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* plan_rev_min : */
+.plan_rev_min {
+  position: absolute;
+  width: 252px;
+  height: 71px;
+  left: 170px;
+  top: 645px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 434 */
+.Rectangle434 {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  left: 440px;
+  top: 768px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* rev_cost : */
+.rev_cost {
+  position: absolute;
+  width: 195px;
+  height: 71px;
+  left: 230px;
+  top: 763px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* interest_pct : */
+.interest_pct {
+  position: absolute;
+  width: 195px;
+  height: 71px;
+  left: 504px;
+  top: 879px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 435 */
+.Rectangle435 {
+  position: absolute;
+  width: 258px;
+  height: 82px;
+  left: 1107px;
+  top: 909px;
+
+  /* greenie */
+  background: #00f5d4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 437 */
+.Rectangle437 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 271px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 436 */
+.Rectangle436 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 449px;
+  top: 269px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 440 */
+.Rectangle440 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 449px;
+  top: 655px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 441 */
+.Rectangle441 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 446px;
+  top: 775px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 443 */
+.Rectangle443 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 735px;
+  top: 886px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 442 */
+.Rectangle442 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 775px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+/* Rectangle 444 */
+.Rectangle444 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 515px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 447 */
+.Rectangle447 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 400px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 446 */
+.Rectangle446 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 645px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 445 */
+.Rectangle445 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 981px;
+  top: 775px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 438 */
+.Rectangle438 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 449px;
+  top: 400px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Rectangle 439 */
+.Rectangle439 {
+  position: absolute;
+  width: 150px;
+  height: 57px;
+  left: 449px;
+  top: 523px;
+
+  background: #bcbcbc;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Group 34 */
+.Group34 {
+  position: absolute;
+  width: 756px;
+  height: 674px;
+  left: 480px;
+  top: 269px;
+}
+
+/* verify */
+.verify {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  left: 1100px;
+  top: 921px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+/* bitcoin-icons:verify-filled */
+.bitcoin-icons-verify-filled {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  left: 1281px;
+  top: 915px;
+}
+
+/* Vector */
+.Vector {
+  position: absolute;
+  left: 21.07%;
+  right: 21.06%;
+  top: 21.07%;
+  bottom: 21.07%;
+
+  /* purplely */
+  background: #9b5de5;
+}
+
+.ellipsechar1 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 0px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+
+.ellipsechar2 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 250px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar3 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 500px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar4 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 750px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar5 {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 1000px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar6 {
+  position: absolute;
+  width: 285px;
+  height: 375px;
+  left: 1250px;
+  top: -100px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+
+.ellipsechar7 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 243px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar8 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 495px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar9 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 745px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar10 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  top: 70px;
+  left: 995px;
+  position: absolute;
+  border-radius: 50%;
+}
+.ellipsechar11 {
+  background-color: #fc7dff;
+  height: 45px;
+  width: 45px;
+  left: 1245px;
+  top: 70px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* Configuration */
+.Configuration {
+  position: absolute;
+  width: 917px;
+  height: 193px;
+  left: 259px;
+  top: 0px;
+
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 140px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* bluewie */
+  color: #00bbf9;
+}
+/* sound icon */
+.sound-icon {
+  position: absolute;
+  left: 88.61%;
+  right: 3.51%;
+  top: 2.83%;
+  bottom: 87.3%;
+}
+
+/* Rectangle 1 */
+.Rectangle1 {
+  position: absolute;
+  left: 11.69%;
+  right: 11.59%;
+  top: 4.21%;
+  bottom: 4.75%;
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+
+/* Rectangle 11 */
+.Rectangle11 {
+  position: absolute;
+  visibility: hidden;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 12.28%;
+
+  background: #d9d9d9;
+}
+
+/* sound icon */
+.sound-icon2 {
+  position: absolute;
+  left: 22.93%;
+  right: 22.24%;
+  top: 22.76%;
+  bottom: 21.04%;
+}
+
+/* Rectangle 8 */
+.Rectangle8 {
+  position: absolute;
+  left: 22.93%;
+  right: 61.71%;
+  top: 36.81%;
+  bottom: 43.28%;
+
+  background: #fee440;
+  border-radius: 1.85835px;
+}
+
+/* Rectangle 9 */
+.Rectangle9 {
+  position: absolute;
+  left: 36.61%;
+  right: 48.04%;
+  top: 22.76%;
+  bottom: 28.18%;
+
+  background: #fee440;
+}
+
+/* Rectangle 10 */
+.Rectangle10 {
+  position: absolute;
+  left: 50.4%;
+  right: 34.24%;
+  top: 47.11%;
+  bottom: 21.04%;
+}
