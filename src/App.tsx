@@ -27,7 +27,11 @@ function App() {
           {/* <Character /> */}
           {/* <Lobby /> */}
           {/* <Config /> */}
-          <Victory />
+          {webSocketState.gameState == gameStateType.HOME && <PlayPage />}
+          {webSocketState.gameState == gameStateType.PLAY && (
+            <>{webSocketState.isConnected ? <Play /> : <Character />}</>
+          )}
+{/*           <Victory /> */}
           {/* {webSocketState.gameState == gameStateType.HOME && <PlayPage />} */}
           {/* {webSocketState.gameState == gameStateType.HOME && <Character />} */}
 
