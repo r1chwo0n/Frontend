@@ -48,8 +48,6 @@ const Timer = () => {
     }
   };
 
-
-
   return (
     <div className="countdown-timer-container">
       <p className="countdown-timer-time">{countdownTime}</p>
