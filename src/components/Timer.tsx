@@ -48,22 +48,11 @@ const Timer = () => {
     }
   };
 
-  const getCountdownToggleButtonText = () => {
-    if (countdownTime <= 0) {
-      return 'Reset';
-    } else if (isCountdownRunning) {
-      return 'Pause';
-    } else {
-      return 'Resume';
-    }
-  };
+
 
   return (
     <div className="countdown-timer-container">
       <p className="countdown-timer-time">{countdownTime}</p>
-      <button onClick={onCountdownToggleButtonClick}>
-        {getCountdownToggleButtonText()}
-      </button>
     </div>
   );
 };
