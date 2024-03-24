@@ -7,8 +7,7 @@ import {
   messageType,
   selectWebSocket,
 } from "../store/Slices/webSocketSlice.ts";
-import Constructionplan from "./ConstructionPlan.tsx";
-import Wait from "./Wait.tsx";
+
 export default function Play() {
   const { sendPlan } = useWebSocket();
   const [typedPlan, setTypedPlan] = useState<string>("");
@@ -18,7 +17,7 @@ export default function Play() {
   return (
     <>
       <div className="upleft">
-        <div className="pinkRectangle1">
+        <div className="pinkRectanglePlay">
           <div className="textPlay"> {username.username}’s turn</div>
           <img
             className="w-20 h-30 left-[115px] top-[-20px] absolute"
@@ -37,10 +36,6 @@ export default function Play() {
       <div className="hexagon">
         <HexagonGrid width={760} height={550} size={53} />
       </div>
-      {/* 
-      <div className="recConstruct">
- 
-      </div> */}
 
       <div className="recConstruct">
         <form

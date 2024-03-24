@@ -8,12 +8,15 @@ export enum messageType {
   LEAVE = "LEAVE",
   PLAY = "PLAY",
   WAIT = "WAIT",
+  CONFIG = "CONFIG",
 }
 
 export enum gameStateType {
   HOME = "HOME",
   USERNAME = "USERNAME",
   PLAY = "PLAY",
+  INIT = "INIT",
+  LOBBY = "LOBBY",
 }
 
 interface webSocketMessage {
@@ -23,8 +26,9 @@ interface webSocketMessage {
   type: messageType;
 }
 interface webSocketState {
+  config: number[];
   userCount: number;
-  isPlayPressed: boolean;
+  isVerify: boolean;
   isConnected: boolean;
   stompClient: Stomp.Client | undefined;
   messages: webSocketMessage[] | undefined;
@@ -32,8 +36,9 @@ interface webSocketState {
 }
 
 const initialState: webSocketState = {
+  config: [],
   userCount: 0,
-  isPlayPressed: false,
+  isVerify: false,
   isConnected: false,
   stompClient: undefined,
   messages: [],
@@ -44,8 +49,8 @@ export const webSocketSlice = createSlice({
   name: "webSocket",
   initialState,
   reducers: {
-    setIsPlayPressed: (state, action: PayloadAction<boolean>) => {
-      state.isPlayPressed = action.payload;
+    setIsVerify: (state, action: PayloadAction<boolean>) => {
+      state.isVerify = action.payload;
     },
     setIsConnected: (state, action: PayloadAction<boolean>) => {
       state.isConnected = action.payload;
@@ -62,13 +67,17 @@ export const webSocketSlice = createSlice({
     setGameState: (state, action: PayloadAction<gameStateType>) => {
       state.gameState = action.payload;
     },
+    appendConfig: (state, action: PayloadAction<number>) => {
+      state.config?.push(action.payload);
+    },
   },
 });
 
 export const {
-  setIsPlayPressed,
+  setIsVerify,
   setIsConnected,
   appendMessage,
+  appendConfig,
   setStompClient,
   appendCount,
   setGameState,

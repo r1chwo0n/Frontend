@@ -21,12 +21,12 @@ export default function Character() {
           <div className="ellipsechar4"></div>
           <div className="ellipsechar5"></div>
           <div className="ellipsechar6"></div>
-          <div className="groupPinkCircle">
-            <div className="ellipsechar7" />
-            <div className="ellipsechar8" />
-            <div className="ellipsechar9" />
-            <div className="ellipsechar10" />
-            <div className="ellipsechar11" />
+          <div className="groupPinkCircleChar">
+            <div className="ellipsechar7c" />
+            <div className="ellipsechar8c" />
+            <div className="ellipsechar9c" />
+            <div className="ellipsechar10c" />
+            <div className="ellipsechar11c" />
           </div>
 
           <div className="w-full max-w-xs">

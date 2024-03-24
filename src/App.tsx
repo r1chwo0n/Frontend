@@ -2,7 +2,8 @@ import "./App.css";
 import "./style.css";
 import "./characterstyle.css";
 import "./lobbystyle.css";
-import"./victorystyle.css";
+import "./victorystyle.css";
+import "./play.css";
 
 import { useAppSelector } from "./store/hooks.ts";
 import {
@@ -28,10 +29,12 @@ function App() {
           {/* <Lobby /> */}
           {/* <Config /> */}
           {webSocketState.gameState == gameStateType.HOME && <PlayPage />}
-          {webSocketState.gameState == gameStateType.PLAY && (
-            <>{webSocketState.isConnected ? <Play /> : <Character />}</>
+          {webSocketState.gameState == gameStateType.INIT && (
+            <>{webSocketState.isConnected ? <Config /> : <Character />}</>
           )}
-{/*           <Victory /> */}
+          {webSocketState.gameState == gameStateType.LOBBY && <Lobby />}
+          {webSocketState.gameState == gameStateType.PLAY && <Play />}
+          {/*           <Victory /> */}
           {/* {webSocketState.gameState == gameStateType.HOME && <PlayPage />} */}
           {/* {webSocketState.gameState == gameStateType.HOME && <Character />} */}
 

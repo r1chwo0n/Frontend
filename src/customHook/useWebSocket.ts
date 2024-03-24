@@ -5,6 +5,8 @@ import SockJS from "sockjs-client/dist/sockjs";
 import { useAppDispatch, useAppSelector } from "../store/hooks.ts";
 import {
   setIsConnected,
+  setIsVerify,
+  appendConfig,
   appendMessage,
   setStompClient,
   appendCount,
@@ -45,11 +47,30 @@ function useWebSocket() {
     }
   }
 
+  function sendConfig(message: number[] | undefined) {
+    if (message && Array.isArray(message)) {
+      if (webSocket.stompClient && webSocket.stompClient.connected) {
+        const configMessage = {
+          content: JSON.stringify(message), // Convert array to string
+          type: "CONFIG",
+        };
+        webSocket.stompClient.send(
+          "/app/chat.sendConfig",
+          {},
+          JSON.stringify(configMessage)
+        );
+      }
+    } else {
+      console.error("Invalid message type or message is undefined.");
+    }
+  }
+
   const onConnected = (stompClient: Stomp.Client, username: string) => {
     stompClient.subscribe("/topic/public", onMessageReceived);
     stompClient.subscribe("/topic/userOnline", onCountRecieved);
+    stompClient.subscribe("/topic/userOnline", onConfigReceived);
     stompClient.send(
-      "/app/chat.addUser",
+      "/app/chat.addConfig",
       {},
       JSON.stringify({
         sender: username,
@@ -63,10 +84,13 @@ function useWebSocket() {
   const onMessageReceived = (payload: Stomp.Message) => {
     dispatch(appendMessage(JSON.parse(payload.body)));
   };
+  const onConfigReceived = (payload: Stomp.Message) => {
+    dispatch(appendConfig(JSON.parse(payload.body)));
+  };
   const onCountRecieved = (payload: Stomp.Message) => {
     dispatch(appendCount(JSON.parse(payload.body)));
   };
-  return { connect, sendPlan };
+  return { connect, sendPlan, sendConfig };
 }
 
 export default useWebSocket;

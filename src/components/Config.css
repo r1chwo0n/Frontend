@@ -5,6 +5,70 @@
   height: 24px;
 }
 
+.ellipsechar1Config {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 0px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+
+.ellipsechar2Config {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 250px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar3Config {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 500px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar4Config {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 750px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar5Config {
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  left: 1000px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+.ellipsechar6Config {
+  position: absolute;
+  width: 285px;
+  height: 375px;
+  left: 1250px;
+  top: -150px;
+  background-color: #aceeee;
+  border-radius: 0 0 150px 150px;
+}
+
+.groupPinkCircleCon {
+  position: absolute;
+  left: 0;
+  top: 120px;
+  height: 50px;
+  width: 300px;
+}
+
 .label {
   /* Target labels */
   font-family: "Shrikhand";
@@ -721,48 +785,48 @@
   border-radius: 0 0 150px 150px;
 }
 
-.ellipsechar7 {
+.ellipsechar7Con {
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 195px;
+  top: 20px;
   left: 243px;
   position: absolute;
   border-radius: 50%;
 }
-.ellipsechar8 {
+.ellipsechar8Con {
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 195px;
+  top: 20px;
   left: 495px;
   position: absolute;
   border-radius: 50%;
 }
-.ellipsechar9 {
+.ellipsechar9Con {
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 195px;
+  top: 20px;
   left: 745px;
   position: absolute;
   border-radius: 50%;
 }
-.ellipsechar10 {
+.ellipsechar10Con {
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 195px;
+  top: 20px;
   left: 995px;
   position: absolute;
   border-radius: 50%;
 }
-.ellipsechar11 {
+.ellipsechar11Con {
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
   left: 1245px;
-  top: 195px;
+  top: 20px;
   position: absolute;
   border-radius: 50%;
 }
@@ -773,7 +837,7 @@
   width: 917px;
   height: 193px;
   left: 430px;
-  top: 0px;
+  top: -20px;
 
   font-family: "Shrikhand";
   font-style: italic;

@@ -5,7 +5,7 @@ export default function PlayPage() {
   const dispatch = useDispatch();
 
   const Onclicked = () => {
-    dispatch(setGameState(gameStateType.PLAY));
+    dispatch(setGameState(gameStateType.INIT));
   };
 
   return (

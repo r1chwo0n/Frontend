@@ -11,10 +11,10 @@
   font-family: Shrikhand;
   line-height: auto;
   border: 1px solid rgba(233, 36, 214, 0);
-  top: 30px;
+  top: 15px;
   position: absolute;
 }
-.Rectangle1 {
+.RectangleBase {
   position: absolute;
   width: 390px;
   height: 350px;
@@ -50,8 +50,18 @@
   text-align: center;
 }
 
+.ReadyButt {
+  position: absolute;
+  left: 800px;
+  top: 500px;
+  font-family: Shrikhand;
+  font-size: 20px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
 .Rectangle3:active {
-    background: #F15BB5;
+  background: #f15bb5;
 }
 
 .Players {
