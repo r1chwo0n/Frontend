@@ -6,6 +6,8 @@ export enum messageType {
   CHAT = "CHAT",
   JOIN = "JOIN",
   LEAVE = "LEAVE",
+  PLAY = "PLAY",
+  WAIT = "WAIT",
 }
 
 export enum gameStateType {
@@ -15,9 +17,9 @@ export enum gameStateType {
 }
 
 interface webSocketMessage {
-  sender: string;
+  owner: string;
   content: string;
-  timestamp: string;
+  pic: string;
   type: messageType;
 }
 interface webSocketState {
