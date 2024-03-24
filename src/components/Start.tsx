@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import useWebSocket from "../customHook/useWebSocket.ts";
 import { gameStateType, setGameState } from "../store/Slices/webSocketSlice.ts";
 
-export default function PlayPage() {
+export default function Start() {
   const dispatch = useDispatch();
 
   const Onclicked = () => {

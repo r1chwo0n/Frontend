@@ -10,7 +10,7 @@ import {
   selectWebSocket,
 } from "./store/Slices/webSocketSlice.ts";
 import Play from "./components/Play.tsx";
-import PlayPage from "./components/PlayPage.tsx";
+import Start from "./components/Start.tsx";
 import Character from "./components/Character.tsx";
 import Lobby from "./components/Lobby.tsx";
 import Config from "./components/Config.tsx";
@@ -22,12 +22,12 @@ function App() {
     <>
       <div className="flex items-center justify-center h-screen">
         <div className="max-w-full max-h-full">
-          {/* <Play /> */}
-          {/* <PlayPage /> */}
+          <Play />
+          {/* <Start /> */}
           {/* <Character /> */}
           {/* <Lobby /> */}
           {/* <Config /> */}
-          <Victory />
+          {/* <Victory /> */}
           {/* {webSocketState.gameState == gameStateType.HOME && <PlayPage />} */}
           {/* {webSocketState.gameState == gameStateType.HOME && <Character />} */}
 
