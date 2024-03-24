@@ -5,6 +5,14 @@
   height: 24px;
 }
 
+.label {
+  /* Target labels */
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 /* Config */
 .Config {
   position: relative;
@@ -131,6 +139,9 @@
   left: 443px;
   top: 262px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -143,6 +154,9 @@
   height: 72px;
   left: 443px;
   top: 393px;
+
+  text-align: center;
+  padding: 5px;
 
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -157,6 +171,9 @@
   left: 975px;
   top: 393px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -169,6 +186,9 @@
   height: 72px;
   left: 443px;
   top: 514px;
+
+  text-align: center;
+  padding: 5px;
 
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -183,6 +203,9 @@
   left: 975px;
   top: 508px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -195,6 +218,9 @@
   height: 72px;
   left: 443px;
   top: 648px;
+
+  text-align: center;
+  padding: 5px;
 
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -209,6 +235,9 @@
   left: 975px;
   top: 637px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -221,6 +250,9 @@
   height: 72px;
   left: 975px;
   top: 766px;
+
+  text-align: center;
+  padding: 5px;
 
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -235,6 +267,9 @@
   left: 729px;
   top: 879px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -247,6 +282,9 @@
   height: 72px;
   left: 975px;
   top: 263px;
+
+  text-align: center;
+  padding: 5px;
 
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -354,6 +392,9 @@
   left: 440px;
   top: 768px;
 
+  text-align: center;
+  padding: 5px;
+
   background: #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -407,10 +448,17 @@
   left: 1107px;
   top: 909px;
 
+  text-align: center;
+  padding: 30px;
+
   /* greenie */
   background: #00f5d4;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+
+.color-light-blue {
+  color: rgb(0, 245, 212);
 }
 
 /* Rectangle 437 */
@@ -677,7 +725,7 @@
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 70px;
+  top: 195px;
   left: 243px;
   position: absolute;
   border-radius: 50%;
@@ -686,7 +734,7 @@
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 70px;
+  top: 195px;
   left: 495px;
   position: absolute;
   border-radius: 50%;
@@ -695,7 +743,7 @@
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 70px;
+  top: 195px;
   left: 745px;
   position: absolute;
   border-radius: 50%;
@@ -704,7 +752,7 @@
   background-color: #fc7dff;
   height: 45px;
   width: 45px;
-  top: 70px;
+  top: 195px;
   left: 995px;
   position: absolute;
   border-radius: 50%;
@@ -714,7 +762,7 @@
   height: 45px;
   width: 45px;
   left: 1245px;
-  top: 70px;
+  top: 195px;
   position: absolute;
   border-radius: 50%;
 }
@@ -724,7 +772,7 @@
   position: absolute;
   width: 917px;
   height: 193px;
-  left: 259px;
+  left: 430px;
   top: 0px;
 
   font-family: "Shrikhand";
@@ -738,48 +786,6 @@
 
   /* bluewie */
   color: #00bbf9;
-}
-/* sound icon */
-.sound-icon {
-  position: absolute;
-  left: 88.61%;
-  right: 3.51%;
-  top: 2.83%;
-  bottom: 87.3%;
-}
-
-/* Rectangle 1 */
-.Rectangle1 {
-  position: absolute;
-  left: 11.69%;
-  right: 11.59%;
-  top: 4.21%;
-  bottom: 4.75%;
-
-  background: #ffffff;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 24px;
-}
-
-/* Rectangle 11 */
-.Rectangle11 {
-  position: absolute;
-  visibility: hidden;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 12.28%;
-
-  background: #d9d9d9;
-}
-
-/* sound icon */
-.sound-icon2 {
-  position: absolute;
-  left: 22.93%;
-  right: 22.24%;
-  top: 22.76%;
-  bottom: 21.04%;
 }
 
 /* Rectangle 8 */
@@ -812,4 +818,101 @@
   right: 34.24%;
   top: 47.11%;
   bottom: 21.04%;
+}
+
+/* sound icon */
+.sound_icon {
+  position: absolute;
+  left: 88.61%;
+  right: 3.51%;
+  top: 2.83%;
+  bottom: 87.3%;
+}
+
+/* Rectangle 1 */
+.Rectangle1 {
+  position: absolute;
+  left: 11.69%;
+  right: 11.59%;
+  top: 4.21%;
+  bottom: 4.75%;
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+
+/* Subtract
+.Subtract {
+  position: absolute;
+  left: 0%;
+  right: nan%;
+  top: 0%;
+  bottom: nan%;
+
+  background: #d9d9d9;
+} */
+
+/* Rectangle 11 */
+.Rectangle11 {
+  position: absolute;
+  visibility: hidden;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 12.28%;
+
+  background: #d9d9d9;
+}
+
+/* sound icon */
+.soundicon {
+  position: absolute;
+  left: 22.93%;
+  right: 22.24%;
+  top: 22.76%;
+  bottom: 21.04%;
+}
+
+/* Ellipse 1 */
+.Ellipse1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 55.8%;
+  right: 22.24%;
+  top: 25.8%;
+  bottom: 31.57%;
+
+  border: 8.27811px solid #fee440;
+}
+
+/* Ellipse 2 */
+.Ellipse2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 55.8%;
+  right: 34.84%;
+  top: 38.1%;
+  bottom: 43.75%;
+
+  border: 8.44705px solid #fee440;
+}
+
+/* Line 1 */
+.Line1 {
+  position: absolute;
+  left: -62.93%;
+  right: 53.16%;
+  top: -67.37%;
+  bottom: 167.37%;
+
+  transform: matrix(0.7, 0.71, -0.71, 0.7, 0, 0);
+}
+
+.Sound:click img {
+  content: url("src/image component/Soundoff.png");
+  opacity: 1;
+  size-adjust: 50px;
 }
