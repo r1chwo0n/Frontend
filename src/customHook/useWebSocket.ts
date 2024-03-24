@@ -4,7 +4,6 @@ import Stomp from "stompjs";
 import SockJS from "sockjs-client/dist/sockjs";
 import { useAppDispatch, useAppSelector } from "../store/hooks.ts";
 import {
-  setIsPlayPressed,
   setIsConnected,
   appendMessage,
   setStompClient,
@@ -16,43 +15,49 @@ function useWebSocket() {
   const dispatch = useAppDispatch();
   const webSocket = useAppSelector(selectWebSocket);
 
-  // function press(){
-
-  // }
-
-  function connect() {
+  function connect(username: string) {
     try {
       const socket: WebSocket = new SockJS(`http://localhost:8080/ws`);
       const stompClient: Stomp.Client = Stomp.over(socket);
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
-      stompClient.connect({}, () => onConnected(stompClient), onError);
+      stompClient.connect(
+        {},
+        () => onConnected(stompClient, username),
+        onError
+      );
     } catch (e) {
       console.log(e);
     }
   }
-
-  function sendMessage(message: string, username: string) {
+  function sendPlan(message: string, username: string) {
     if (webSocket.stompClient && webSocket.stompClient.connected) {
-      const chatMessage = {
+      const planMessage = {
         sender: username,
         content: message,
-        timestamp: new Date().toLocaleTimeString(),
-        type: "CHAT",
+        type: "PLAY",
       };
       webSocket.stompClient.send(
-        "/app/chat.sendMessage",
+        "/app/chat.sendPlan",
         {},
-        JSON.stringify(chatMessage)
+        JSON.stringify(planMessage)
       );
     }
   }
 
-  const onConnected = (stompClient: Stomp.Client) => {
+  const onConnected = (stompClient: Stomp.Client, username: string) => {
     stompClient.subscribe("/topic/public", onMessageReceived);
     stompClient.subscribe("/topic/userOnline", onCountRecieved);
+    stompClient.send(
+      "/app/chat.addUser",
+      {},
+      JSON.stringify({
+        sender: username,
+        type: "JOIN",
+        timestamp: new Date().toLocaleTimeString(),
+      })
+    );
     dispatch(setIsConnected(true));
-    dispatch(setIsPlayPressed(true));
     dispatch(setStompClient(stompClient));
   };
   const onMessageReceived = (payload: Stomp.Message) => {
@@ -61,7 +66,7 @@ function useWebSocket() {
   const onCountRecieved = (payload: Stomp.Message) => {
     dispatch(appendCount(JSON.parse(payload.body)));
   };
-  return { connect, sendMessage };
+  return { connect, sendPlan };
 }
 
 export default useWebSocket;
