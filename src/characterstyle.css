@@ -74,11 +74,28 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
 }
+.innerbox {
+  width: 283px;
+  height: 45px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.11);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
 .namebox {
-  background-color: #9747ff;
+  position: absolute;
+  width: 300px;
+  height: 62px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #9747ff;
+  border-radius: 10px;
+  /* background-color: #9747ff;
   height: 96px;
   width: 465px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .headBox {
@@ -255,21 +272,6 @@
 }
 
 .Oppachar:hover img {
-  content: url("src/image char/Picture7.png");
-  opacity: 1;
-}
-
-.Nerdchar:click img {
-  content: url("src/image char/Picture5.png");
-  opacity: 1;
-}
-
-.Superstarchar:click img {
-  content: url("src/image char/Picture6.png");
-  opacity: 1;
-}
-
-.Oppachar:click img {
   content: url("src/image char/Picture7.png");
   opacity: 1;
 }
