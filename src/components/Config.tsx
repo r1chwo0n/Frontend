@@ -85,12 +85,18 @@ function ConfigurationPage() {
       <div className="ellipsechar9" />
       <div className="ellipsechar10" />
       <div className="ellipsechar11" />
+      <div className="Sound w-32  absolute">
+        <img
+          className="h-30 left-[1370px] top-[30px] absolute transition-opacity duration-500"
+          src="src\image component\Soundon.png"
+        />
+      </div>
 
       <h2 className="Configuration">Configuration</h2>
       <div>
         <label className="m">m:</label>
         <input
-          className="Rectangle424"
+          className="Rectangle424 label"
           type="number"
           id="m"
           name="m"
@@ -101,7 +107,7 @@ function ConfigurationPage() {
       <div>
         <label className="n">n:</label>
         <input
-          className="Rectangle425"
+          className="Rectangle425 label"
           type="number"
           id="n"
           name="n"
@@ -112,7 +118,7 @@ function ConfigurationPage() {
       <div>
         <label className="init_plan_min">init_plan_min:</label>
         <input
-          className="Rectangle426"
+          className="Rectangle426 label"
           type="number"
           id="initPlanMin"
           name="initPlanMin"
@@ -125,7 +131,7 @@ function ConfigurationPage() {
           init_plan_sec:
         </label>
         <input
-          className="Rectangle427"
+          className="Rectangle427 label"
           type="number"
           id="initPlanSec"
           name="initPlanSec"
@@ -136,7 +142,7 @@ function ConfigurationPage() {
       <div>
         <label className="init_budget">init_budget:</label>
         <input
-          className="Rectangle428"
+          className="Rectangle428 label"
           type="number"
           id="initBudget"
           name="initBudget"
@@ -147,7 +153,7 @@ function ConfigurationPage() {
       <div>
         <label className="init_center_dep">init_center_dep:</label>
         <input
-          className="Rectangle429"
+          className="Rectangle429 label"
           type="number"
           id="initCenterDep"
           name="initCenterDep"
@@ -158,7 +164,7 @@ function ConfigurationPage() {
       <div>
         <label className="plan_rev_min">plan_rev_min:</label>
         <input
-          className="Rectangle430"
+          className="Rectangle430 label"
           type="number"
           id="planRevMin"
           name="planRevMin"
@@ -169,7 +175,7 @@ function ConfigurationPage() {
       <div>
         <label className="plan_rev_sec">plan_rev_sec:</label>
         <input
-          className="Rectangle431"
+          className="Rectangle431 label"
           type="number"
           id="planRevSec"
           name="planRevSec"
@@ -180,7 +186,7 @@ function ConfigurationPage() {
       <div>
         <label className="rev_cost">rev_cost:</label>
         <input
-          className="Rectangle434"
+          className="Rectangle434 label"
           type="number"
           id="revCost"
           name="revCost"
@@ -191,7 +197,7 @@ function ConfigurationPage() {
       <div>
         <label className="max_dep">max_dep:</label>
         <input
-          className="Rectangle432"
+          className="Rectangle432 label"
           type="number"
           id="maxDep"
           name="maxDep"
@@ -202,7 +208,7 @@ function ConfigurationPage() {
       <div>
         <label className="interest_pct">interest_pct:</label>
         <input
-          className="Rectangle433"
+          className="Rectangle433 label"
           type="number"
           id="interestPct"
           name="interestPct"
@@ -211,7 +217,9 @@ function ConfigurationPage() {
         />
       </div>
       <button
-        className="verify Rectangle435 "
+        // className="verify Rectangle435"
+        className="verify Rectangle435 bg-teal-300 hover:text-white-200 hover:bg-pink-500 py-2 px-10 focus:outline-none focus:shadow-outline"
+        type="submit"
         onClick={() => {
           handleSave();
         }}
