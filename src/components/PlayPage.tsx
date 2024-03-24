@@ -1,5 +1,4 @@
 import { useDispatch } from "react-redux";
-import useWebSocket from "../customHook/useWebSocket.ts";
 import { gameStateType, setGameState } from "../store/Slices/webSocketSlice.ts";
 
 export default function PlayPage() {
@@ -28,7 +27,7 @@ export default function PlayPage() {
           </div>
 
           <div className="upbeatStart items-center ">UPBEAT</div>
-          <div className="group1">
+          <div className="group1Start">
             <button
               className="bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playbutt py-4 px-20 focus:outline-none focus:shadow-outline"
               type="button"
