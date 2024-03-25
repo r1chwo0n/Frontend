@@ -4,7 +4,7 @@ import "./characterstyle.css";
 import "./lobbystyle.css";
 import "./victorystyle.css";
 import "./play.css";
-import"./timerstyle.css";
+import "./timerstyle.css";
 
 import { useAppSelector } from "./store/hooks.ts";
 import {
@@ -17,6 +17,7 @@ import Character from "./components/Character.tsx";
 import Lobby from "./components/Lobby.tsx";
 import Config from "./components/Config.tsx";
 import Victory from "./components/Victory.tsx";
+import Lose from "./components/Lose.tsx";
 
 function App() {
   const webSocketState = useAppSelector(selectWebSocket);
@@ -29,13 +30,16 @@ function App() {
           {/* <Character /> */}
           {/* <Lobby /> */}
           {/* <Config /> */}
+
           {webSocketState.gameState == gameStateType.HOME && <PlayPage />}
           {webSocketState.gameState == gameStateType.INIT && (
             <>{webSocketState.isConnected ? <Config /> : <Character />}</>
           )}
           {webSocketState.gameState == gameStateType.LOBBY && <Lobby />}
           {webSocketState.gameState == gameStateType.PLAY && <Play />}
-          {/*           <Victory /> */}
+
+          {/* <Victory /> */}
+          {/* <Lose /> */}
           {/* {webSocketState.gameState == gameStateType.HOME && <PlayPage />} */}
           {/* {webSocketState.gameState == gameStateType.HOME && <Character />} */}
 
