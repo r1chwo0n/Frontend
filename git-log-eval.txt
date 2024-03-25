@@ -1,57 +1,207 @@
-* commit 5c438f0ce9ad3a2b99f886b24f8ab4e71784ce90
-| Author: Piicharpa <Neuah2515@gmail.com>
-| Date:   Sat Mar 23 21:58:04 2024 +0700
+* commit fe97db0bfafa206ae66e37617e9b4668f3f4d74f
+| Author: Poon Boonchoowit <poon15112@gmail.com>
+| Date:   Mon Mar 25 13:37:41 2024 +0700
 | 
 |     update
-|     
-| *   commit 5cc4d28cc7f0fe664f66d24b65f574b113d46eee
-| |\  Merge: adb6eba bc866c0
-| |/  Author: Piicharpa <110968305+Piicharpa@users.noreply.github.com>
-|/|   Date:   Sat Mar 23 21:28:03 2024 +0700
-| |   
-| |       Merge pull request #2 from r1chwo0n/Piicharpa
-| |       
-| |       Piicharpa
+| 
+* commit ecb8c0b037c2fd64c2c532b6c9d551cc2f5e7f4f
+| Author: Piicharpa <Neuah2515@gmail.com>
+| Date:   Mon Mar 25 11:56:43 2024 +0700
+| 
+|     PiicharpaWork
+| 
+* commit c257d5b7380f5ddb138adf8ecf284408753b4135
+| Author: r1chwo0n <woonzy09@gmail.com>
+| Date:   Sun Mar 24 21:20:58 2024 +0700
+| 
+|     add backend
+| 
+* commit 681ad4f9f566b36173e9e41b11c3db4414a498e1
+| Author: r1chwo0n <woonzy09@gmail.com>
+| Date:   Sun Mar 24 20:46:57 2024 +0700
+| 
+|     edit Config and Lobby
+| 
+* commit 40fd8f53373a44f3ae996c9c24530c5cbd52c169
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:18:54 2024 +0700
+| 
+|     Update style.css
+| 
+* commit e72c3dd9d0b9f3a16a4bb361b21ff9bed0b2a2a4
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:18:09 2024 +0700
+| 
+|     Update play.css
+| 
+* commit 2a0c2219df06e486817bda862654b4e659c8ea5e
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:17:53 2024 +0700
+| 
+|     Update characterstyle.css
+| 
+* commit abbfb88b04c09af6b59fa0f770154abb45348138
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:17:15 2024 +0700
+| 
+|     Update App.tsx
+| 
+* commit 33a088639c20d7cec446f4f7563c70be519ab34e
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:16:00 2024 +0700
+| 
+|     Update webSocketSlice.ts
+| 
+* commit eaa3fc6f7168d5eca8dc4a3c8111c18091b1349a
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:15:45 2024 +0700
+| 
+|     Update usernameSlice.ts
+| 
+* commit b6772e48749ae96b16a5d0c383b428e69b4144af
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:15:18 2024 +0700
+| 
+|     Update useWebSocket.ts
+| 
+* commit 1d522b4e31668ee1aa73a55d031d2fe2511846b4
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:14:34 2024 +0700
+| 
+|     Update PlayPage.tsx
+| 
+* commit 57694c97736d0f9a61312a8e56cc24417cd45347
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:14:02 2024 +0700
+| 
+|     Update Play.tsx
+| 
+* commit 72bd24852f4791b9bd37cc32a0de04087e4a0e6b
+| Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
+| Date:   Sun Mar 24 12:13:31 2024 +0700
+| 
+|     Update Character.tsx
+|   
+| * commit 9aae902c47a409c7998e47fd30618bbd65116ab1
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sun Mar 24 20:59:30 2024 +0700
 | | 
-* | commit bc866c03722c4d813897423def295775af978253
+| |     commit
+| | 
+| * commit e68a0b19db0e4e986f073e9c69b862e2f3635c98
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sun Mar 24 20:55:43 2024 +0700
+| | 
+| |     Timer
+| | 
+| * commit f3a5a22e73509c8b7e69b3770557042a81a2dff2
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sun Mar 24 16:09:49 2024 +0700
+| | 
+| |     update
+| | 
+| * commit 407f2a1ea262a56d0326b69742cb92efc502229b
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sun Mar 24 15:59:35 2024 +0700
+| | 
+| |     Time
+| | 
+| * commit f99ef13e6cf0e4269593a9c3107df83cc70cd060
+|/  Author: Piicharpa <Neuah2515@gmail.com>
+|   Date:   Sun Mar 24 12:15:37 2024 +0700
+|   
+|       update
+|   
+*   commit 55adc1df69ca2fc75b84ed089fcd6e3ee2953510
+|\  Merge: db57be2 e0fac99
+| | Author: Piicharpa <110968305+Piicharpa@users.noreply.github.com>
+| | Date:   Sun Mar 24 12:04:03 2024 +0700
+| | 
+| |     Merge pull request #4 from r1chwo0n/Piicharpa
+| |     
+| |     update
+| | 
+| * commit e0fac9934561f0103c7f1e425f6df60844b239d7
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sun Mar 24 12:02:05 2024 +0700
+| | 
+| |     update
+| | 
+* | commit db57be2e69a2c1a6082b06adaf40800f247fb5c9
+| | Author: poonbcw <110962501+poonbcw@users.noreply.github.com>
+| | Date:   Sun Mar 24 11:01:56 2024 +0700
+| | 
+| |     Update Config.css
+| | 
+* | commit e52341e7a2f6b469d91463f4662498d5606433f3
+| | Author: poonbcw <110962501+poonbcw@users.noreply.github.com>
+| | Date:   Sun Mar 24 11:01:33 2024 +0700
+| | 
+| |     Update Config.tsx
+| | 
+* | commit 40a0473631deada198209445fc95e950beee78d1
+|\| Merge: 5cc4d28 5c438f0
+| | Author: Piicharpa <110968305+Piicharpa@users.noreply.github.com>
+| | Date:   Sat Mar 23 22:02:11 2024 +0700
+| | 
+| |     Merge pull request #3 from r1chwo0n/Piicharpa
+| |     
+| |     update
+| | 
+| * commit 5c438f0ce9ad3a2b99f886b24f8ab4e71784ce90
+| | Author: Piicharpa <Neuah2515@gmail.com>
+| | Date:   Sat Mar 23 21:58:04 2024 +0700
+| | 
+| |     update
+| | 
+* | commit 5cc4d28cc7f0fe664f66d24b65f574b113d46eee
+|\| Merge: adb6eba bc866c0
+| | Author: Piicharpa <110968305+Piicharpa@users.noreply.github.com>
+| | Date:   Sat Mar 23 21:28:03 2024 +0700
+| | 
+| |     Merge pull request #2 from r1chwo0n/Piicharpa
+| |     
+| |     Piicharpa
+| | 
+| * commit bc866c03722c4d813897423def295775af978253
 | | Author: Piicharpa <Neuah2515@gmail.com>
 | | Date:   Sat Mar 23 21:25:40 2024 +0700
 | | 
 | |     update
 | | 
-* | commit de4472c26558ddd942460c194b4787ec79ab8e6e
+| * commit de4472c26558ddd942460c194b4787ec79ab8e6e
 | | Author: Piicharpa <Neuah2515@gmail.com>
 | | Date:   Sat Mar 23 21:18:18 2024 +0700
 | | 
 | |     update
+| |   
+| *   commit 8268179055b03df8ba03c8606aca898045a2d24a
+| |\  Merge: 3ff02a0 adb6eba
+| |/  Author: Piicharpa <Neuah2515@gmail.com>
+|/|   Date:   Sat Mar 23 16:14:01 2024 +0700
+| |   
+| |       Merge branch 'main' of https://github.com/r1chwo0n/Frontend into Piicharpa
 | | 
-* | commit 8268179055b03df8ba03c8606aca898045a2d24a
-|\| Merge: 3ff02a0 adb6eba
-| | Author: Piicharpa <Neuah2515@gmail.com>
-| | Date:   Sat Mar 23 16:14:01 2024 +0700
-| | 
-| |     Merge branch 'main' of https://github.com/r1chwo0n/Frontend into Piicharpa
-| | 
-| * commit adb6eba8e146488a2cfc4f97b995fdbbad7945a5
+* | commit adb6eba8e146488a2cfc4f97b995fdbbad7945a5
 | | Author: poonbcw <110962501+poonbcw@users.noreply.github.com>
 | | Date:   Sat Mar 23 16:05:29 2024 +0700
 | | 
 | |     Add files via upload
 | | 
-| * commit 9f83d20a1812e841e65c77145d419cb4c85ca678
+* | commit 9f83d20a1812e841e65c77145d419cb4c85ca678
 | | Author: poonbcw <110962501+poonbcw@users.noreply.github.com>
 | | Date:   Sat Mar 23 16:05:01 2024 +0700
 | | 
 | |     Add files via upload
 | | 
-| * commit 4d487320a2aab82c1e60caa673a7ec816e5734c9
+* | commit 4d487320a2aab82c1e60caa673a7ec816e5734c9
 | | Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
 | | Date:   Tue Mar 19 22:19:00 2024 +0700
 | | 
 | |     Update style.css
 | |   
-| *   commit 7534694778dc956051ec1f20ced4d702ce0520de
-| |\  Merge: 538de75 a0b7d84
+* |   commit 7534694778dc956051ec1f20ced4d702ce0520de
+|\ \  Merge: 538de75 a0b7d84
 | | | Author: Piicharpa <110968305+Piicharpa@users.noreply.github.com>
 | | | Date:   Tue Mar 19 22:18:44 2024 +0700
 | | | 
@@ -59,49 +209,49 @@
 | | |     
 | | |     Piicharpa
 | | | 
-| * | commit 538de7575e4a8c2458c9f16b154472b6ff3565a6
+* | | commit 538de7575e4a8c2458c9f16b154472b6ff3565a6
 | | | Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
 | | | Date:   Tue Mar 19 22:18:20 2024 +0700
 | | | 
 | | |     Update Play.tsx
 | | | 
-| * | commit cbfd563a1a51126888049204616384fec1653a37
+* | | commit cbfd563a1a51126888049204616384fec1653a37
 | | | Author: r1chwo0n <110924108+r1chwo0n@users.noreply.github.com>
 | | | Date:   Tue Mar 19 22:17:40 2024 +0700
 | | | 
 | | |     Create play.css
 | | | 
-* | | commit 3ff02a058e7402c53a7975e218ac6c6cdcd696f5
+| | * commit 3ff02a058e7402c53a7975e218ac6c6cdcd696f5
 | | | Author: Piicharpa <Neuah2515@gmail.com>
 | | | Date:   Sat Mar 23 16:07:51 2024 +0700
 | | | 
 | | |     update
 | | | 
-* | | commit 5d9a879e2adf53de1742b31b88cad156e2bdd936
+| | * commit 5d9a879e2adf53de1742b31b88cad156e2bdd936
 | |/  Author: Piicharpa <Neuah2515@gmail.com>
-|/|   Date:   Sat Mar 23 16:07:13 2024 +0700
+| |   Date:   Sat Mar 23 16:07:13 2024 +0700
 | |   
 | |       build lobby page
 | | 
-* | commit a0b7d845e4cb75cb1bb01d96bc130fcbeb36c460
+| * commit a0b7d845e4cb75cb1bb01d96bc130fcbeb36c460
 | | Author: Piicharpa <Neuah2515@gmail.com>
 | | Date:   Tue Mar 19 22:18:05 2024 +0700
 | | 
 | |     update
 | | 
-* | commit 5e0366fef3b6af18d3feaafd1a74e6a0a68d2542
+| * commit 5e0366fef3b6af18d3feaafd1a74e6a0a68d2542
 | | Author: Piicharpa <Neuah2515@gmail.com>
 | | Date:   Tue Mar 19 22:16:52 2024 +0700
 | | 
 | |     update
 | | 
-* | commit 7ae0063b7f26670ebbaeb4321781d4afc5a26989
+| * commit 7ae0063b7f26670ebbaeb4321781d4afc5a26989
 | | Author: Piicharpa <Neuah2515@gmail.com>
 | | Date:   Tue Mar 19 22:15:07 2024 +0700
 | | 
 | |     Not finish yet
 | | 
-* | commit 03879a92cb9a43cc13f242edae6bb8703bd58a1e
+| * commit 03879a92cb9a43cc13f242edae6bb8703bd58a1e
 |/  Author: Piicharpa <Neuah2515@gmail.com>
 |   Date:   Tue Mar 19 22:14:38 2024 +0700
 |   
