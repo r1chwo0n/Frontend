@@ -59,6 +59,15 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
 }
+.readybutton {
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  position: absolute;
+  left: 800px;
+  top: 550px;
+}
 
 .Rectangle3:active {
   background: #f15bb5;
@@ -109,11 +118,11 @@
   position: absolute;
 }
 
-.TimerboxLobby{
-  position: fixed;
+.TimerboxLobby {
+  position: absolute;
   width: 100px;
   height: 900px;
   left: 900px;
-  top: 400px;
+  top: 450px;
   text-align: center;
 }

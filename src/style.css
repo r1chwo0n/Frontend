@@ -46,7 +46,17 @@
   font-size: 30px;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
+  left: 50px;
+  top: 100px;
 }
+
+.playerbutt {
+  font-family: Shrikhand;
+  font-size: 30px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
 .enterbutt {
   font-family: Shrikhand;
   font-size: 30px;

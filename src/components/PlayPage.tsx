@@ -4,7 +4,7 @@ import { gameStateType, setGameState } from "../store/Slices/webSocketSlice.ts";
 export default function PlayPage() {
   const dispatch = useDispatch();
 
-  const Onclicked = () => {
+  const OnclickedInit = () => {
     dispatch(setGameState(gameStateType.INIT));
   };
 
@@ -27,13 +27,21 @@ export default function PlayPage() {
           </div>
 
           <div className="upbeatStart items-center ">UPBEAT</div>
-          <div className="group1Start">
+
+          <div className="group1Start ">
             <button
-              className="bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playbutt py-4 px-20 focus:outline-none focus:shadow-outline"
+              className="mr-6 bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playbutt py-4 px-20 focus:outline-none focus:shadow-outline"
               type="button"
-              onClick={Onclicked}
+              onClick={OnclickedInit}
             >
-              Play
+              New game
+            </button>
+            <button
+              className="bg-white text-pink-400 hover:text-yellow-200 hover:bg-purple-700 playerbutt py-4 px-20 focus:outline-none focus:shadow-outline"
+              type="button"
+              onClick={OnclickedInit}
+            >
+              Join
             </button>
           </div>
         </div>

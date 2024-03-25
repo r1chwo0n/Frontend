@@ -8,7 +8,7 @@ import {
 import "./Config.css";
 import { useState } from "react";
 import { useAppSelector } from "../store/hooks.ts";
-import"./Timer.tsx";
+import "./Timer.tsx";
 import Timer from "./Timer.tsx";
 
 export default function Character() {
@@ -51,15 +51,25 @@ export default function Character() {
           <br />
           neuah
         </div>
-        <button
-          className="ReadyButt bg-gray-200 text-black hover:text-yellow-200 hover:bg-purple-500 py-5 px-20 focus:outline-none focus:shadow-outline"
-          type="submit"
-          onClick={Onclicked}
-        >
-          Ready
-        </button>
-        <div className="TimerboxLobby"><Timer/></div>
-        
+        <div>
+          {/* <button
+            className="ReadyButt bg-gray-200 text-black hover:text-yellow-200 hover:bg-purple-500 py-5 px-20 focus:outline-none focus:shadow-outline"
+            type="submit"
+            onClick={Onclicked}
+          >
+            Ready
+          </button> */}
+          <button
+            className=" bg-zinc-200 text-black-400 hover:text-white hover:bg-purple-500 readybutton py-4 px-20 focus:outline-none focus:shadow-outline"
+            type="submit"
+            onClick={Onclicked}
+          >
+            Ready
+          </button>
+        </div>
+        <div className="TimerboxLobby">
+          <Timer />
+        </div>
       </div>
     </>
   );
