@@ -108,3 +108,12 @@
 .Substract {
   position: absolute;
 }
+
+.TimerboxLobby{
+  position: fixed;
+  width: 100px;
+  height: 900px;
+  left: 900px;
+  top: 400px;
+  text-align: center;
+}

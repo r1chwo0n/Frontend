@@ -7,6 +7,7 @@ import {
   messageType,
   selectWebSocket,
 } from "../store/Slices/webSocketSlice.ts";
+import Timer from "./Timer.tsx";
 
 export default function Play() {
   const { sendPlan } = useWebSocket();
@@ -59,7 +60,10 @@ export default function Play() {
             Send
           </button>
         </form>
+        
       </div>
+      <div className="TimerboxPlay"><Timer/></div>
+      
     </>
   );
 }

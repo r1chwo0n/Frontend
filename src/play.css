@@ -59,6 +59,18 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
+.TimerboxPlay{
+  position: fixed;
+  width: 100px;
+  height: 60px;
+  left: 1250px;
+  top: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  position: absolute;
+}
+
 .writeConstruct {
   position: absolute;
   left: 12px;

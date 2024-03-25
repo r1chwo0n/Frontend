@@ -4,6 +4,7 @@ import "./characterstyle.css";
 import "./lobbystyle.css";
 import "./victorystyle.css";
 import "./play.css";
+import"./timerstyle.css";
 
 import { useAppSelector } from "./store/hooks.ts";
 import {

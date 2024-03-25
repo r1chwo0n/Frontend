@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+/* .container {
+  margin: auto;
+  width: 400px;
+} */
+
+/* .path--background {
+  fill: rgb(34, 213, 201);
+  stroke: #fcdc27e8;
+  stroke-width: 0px;
+}
+
+.path--foreground {
+  fill: #d2e44a;
+  stroke: #c3e675;
+  stroke-width: 2px;
+} */
+/* .label {
+  font: 90px "Open Sans";
+  font-weight: 900;
+  text-anchor:middle;
+  fill: rgb(34, 213, 201);
+} */
+h1,
+p {
+  position: absolute;
+
+font-family: Shrikhand;
+font-size: 20px;
+
+/* box-shadow: inset 0px 4px 4px rgba(13, 72, 145, 0.25); */
+/* border-radius: 18px; */
+}
+
+
+/* .countdown-timer-container {
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  height: 50px;
+  position: absolute;
+} */
+
+.countdown-timer-time {
+  font-size: 50px;
+  
+}

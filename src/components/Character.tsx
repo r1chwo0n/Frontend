@@ -52,13 +52,16 @@ export default function Character() {
                     />
                   </div>
                 </div>
+                </div>
+                <div className="group4">
                 <button
-                  className="bg-zinc-200 text-black-400 hover:text-white hover:bg-zinc-950 enterbutt py-4 px-20 focus:outline-none focus:shadow-outline"
+                  className=" bg-zinc-200 text-black-400 hover:text-white hover:bg-zinc-950 enterbutt py-4 px-20 focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Enter
                 </button>
-              </div>
+                </div>
+              
               <div className="group1">
                 <button
                   className="w-72 h-72 left-[-450px] top-[-200px] absolute"

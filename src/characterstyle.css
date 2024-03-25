@@ -59,7 +59,12 @@
 }
 .group3 {
   top: 750px;
-  left: 630px;
+  left: 600px;
+  position: absolute;
+}
+.group4 {
+  top: 850px;
+  left: 620px;
   position: absolute;
 }
 .playbutt {

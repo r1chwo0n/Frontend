@@ -8,6 +8,8 @@ import {
 import "./Config.css";
 import { useState } from "react";
 import { useAppSelector } from "../store/hooks.ts";
+import"./Timer.tsx";
+import Timer from "./Timer.tsx";
 
 export default function Character() {
   const dispatch = useDispatch();
@@ -15,19 +17,6 @@ export default function Character() {
   const Onclicked = () => {
     dispatch(setGameState(gameStateType.PLAY));
   };
-
-  // const gameState = useSelector((state) => state.gameState); // Assuming you have a gameState in your Redux store
-  // const [username, setUsername] = useState<string>("");
-
-  //   const toggleReadyState = () => {
-  //     if (gameState === gameStateType.PLAY) {
-  //       // If currently in PLAY state, set to NOT_READY
-  //       dispatch(setGameState(gameStateType.NOT_READY));
-  //     } else {
-  //       // If currently in NOT_READY state, set to PLAY
-  //       dispatch(setGameState(gameStateType.PLAY));
-  //     }
-  //   };
   const username = useAppSelector(selectUsername);
 
   return (
@@ -69,23 +58,8 @@ export default function Character() {
         >
           Ready
         </button>
-
-        {/* <button className="absolute Rectangle3" type="submit">
-          <div className="Ready">Ready</div>
-        </button> */}
-
-        {/* Toggle button */}
-        {/* <button className="absolute" onClick={toggleReadyState}>
-          <div
-            className={`Rectangle3 ${
-              gameState === gameStateType.PLAY ? "active" : ""
-            }`}
-          >
-            <div className="Ready">
-              {gameState === gameStateType.PLAY ? "Not Ready" : "Ready"}
-            </div>
-          </div>
-        </button> */}
+        <div className="TimerboxLobby"><Timer/></div>
+        
       </div>
     </>
   );
